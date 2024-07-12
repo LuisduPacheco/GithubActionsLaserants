@@ -17,4 +17,8 @@ jobs:
           python-version: '3.10'
       
       - name: Install dependencies
-        run: pip install requirements.txt
+        run: pip install -r requirements.txt
+
+      - name: Test execution
+        run: python -m unittest discover -s tests
+
