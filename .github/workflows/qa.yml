@@ -23,5 +23,5 @@ jobs:
         run: python -m unittest discover -s tests
 
       - name: Successfully
-        run: pythn -c "print('It ended successfully.')"
+        run: python -c "print('It ended successfully.')"
           
